@@ -241,6 +241,7 @@ __extern uint32_t const * caca_get_canvas_attrs(caca_canvas_t const *);
 __extern int caca_free_canvas(caca_canvas_t *);
 __extern int caca_rand(int, int);
 __extern char const * caca_get_version(void);
+__extern void *_caca_alloc2d(size_t width, size_t height, size_t elem_size);
 /*  @} */
 
 /** \defgroup caca_canvas libcaca canvas drawing
